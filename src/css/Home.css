@@ -1,0 +1,41 @@
+#home-container {
+  width: 100%;
+  height: auto;
+  margin: 8em auto -6em;
+  text-align: center;
+}
+
+.highlight.homepage {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.highlight.homepage:hover {
+  color: rgb(29, 206, 117);
+}
+
+#greeting-container {
+  margin: 0 auto;
+}
+
+#greeting {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 3em;
+}
+
+#greeting-intro {
+  font-size: 2em;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.home-highlight {
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.home-highlight:hover {
+  color: rgb(92, 228, 137);
+}

@@ -1,0 +1,53 @@
+#contact-container {
+  width: 40%;
+  margin: 2em auto 2em;
+}
+
+#contact-section {
+  padding: 1.5em;
+  background-color: #000000;
+  border-radius: 0.625em;
+  font-family: "Josefin Sans", sans-serif;
+  /* -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21); */
+}
+
+#contact-subtitle {
+  font-size: 1em;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(15, 209, 135);
+  margin: -2em 0 1em;
+}
+
+.label.contact {
+  color: rgb(255, 255, 255);
+}
+
+.form-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 1em;
+}
+
+.form-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#message-input {
+  height: 12.5em;
+}
+
+#contact-submit {
+  font-family: "Josefin Sans";
+  transition: 0.3s;
+}
+
+#contact-submit:hover {
+  font-family: "Josefin Sans";
+  color: rgb(15, 209, 135);
+}
+
