@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "icon" : "devicon-html5-plain-wordmark colored",
+      "progress": "65",
+      "animateDuration": 2
+    },
+    {
+      "name": "CSS",
+      "icon" : "devicon-css3-plain-wordmark colored",
+      "progress": "70",
+      "animateDuration": 2.1
+    },
+    {
+      "name": "Sass",
+      "progress": "10",
+      "icon" : "devicon-sass-original colored",
+      "animateDuration": 2.2
+    },
+    {
+      "name": "JavaScript",
+      "progress": "70",
+      "icon" : "devicon-javascript-plain colored",
+      "animateDuration": 2.3
+    },
+    {
+      "name": "React.js",
+      "progress": "65",
+      "icon" : "devicon-react-original-wordmark colored",
+      "animateDuration": 2.4
+    },
+    {
+      "name": "Java",
+      "progress": "65",
+      "icon" : "devicon-java-plain-wordmark colored",
+      "animateDuration": 2.5
+    },
+    {
+      "name": "Node.js",
+      "progress": "20",
+      "icon" : "devicon-nodejs-plain colored",
+      "animateDuration": 2.6
+    },
+    {
+      "name": "Express",
+      "progress": "20",
+      "icon" : "devicon-express-original-wordmark colored",
+      "animateDuration": 2.7
+    },
+    {
+      "name": "MySQL",
+      "progress": "30",
+      "icon" : "devicon-mysql-plain colored",
+      "animateDuration": 2.8
+    },
+    {
+      "name": "Git",
+      "progress": "50",
+      "icon" : "devicon-git-plain-wordmark colored",
+      "animateDuration": 2.9
+    }
+  ]
+}
