@@ -31,12 +31,6 @@
       "animateDuration": 2.4
     },
     {
-      "name": "Java",
-      "progress": "65",
-      "icon" : "devicon-java-plain-wordmark colored",
-      "animateDuration": 2.5
-    },
-    {
       "name": "Node.js",
       "progress": "20",
       "icon" : "devicon-nodejs-plain colored",
@@ -47,12 +41,6 @@
       "progress": "20",
       "icon" : "devicon-express-original-wordmark colored",
       "animateDuration": 2.7
-    },
-    {
-      "name": "MySQL",
-      "progress": "30",
-      "icon" : "devicon-mysql-plain colored",
-      "animateDuration": 2.8
     },
     {
       "name": "Git",
