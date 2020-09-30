@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PortfolioWebsite2/static/css/main.7f7e992c.chunk.css",
-    "main.js": "/PortfolioWebsite2/static/js/main.d6c1bc56.chunk.js",
-    "main.js.map": "/PortfolioWebsite2/static/js/main.d6c1bc56.chunk.js.map",
+    "main.css": "/PortfolioWebsite2/static/css/main.7301ca68.chunk.css",
+    "main.js": "/PortfolioWebsite2/static/js/main.faafc5d1.chunk.js",
+    "main.js.map": "/PortfolioWebsite2/static/js/main.faafc5d1.chunk.js.map",
     "runtime-main.js": "/PortfolioWebsite2/static/js/runtime-main.28606eda.js",
     "runtime-main.js.map": "/PortfolioWebsite2/static/js/runtime-main.28606eda.js.map",
     "static/js/2.f559d380.chunk.js": "/PortfolioWebsite2/static/js/2.f559d380.chunk.js",
     "static/js/2.f559d380.chunk.js.map": "/PortfolioWebsite2/static/js/2.f559d380.chunk.js.map",
     "index.html": "/PortfolioWebsite2/index.html",
-    "precache-manifest.16d89fe883741acf6573267422367fc4.js": "/PortfolioWebsite2/precache-manifest.16d89fe883741acf6573267422367fc4.js",
+    "precache-manifest.1b94aa78e4cd96849fa38c8db3c46200.js": "/PortfolioWebsite2/precache-manifest.1b94aa78e4cd96849fa38c8db3c46200.js",
     "service-worker.js": "/PortfolioWebsite2/service-worker.js",
-    "static/css/main.7f7e992c.chunk.css.map": "/PortfolioWebsite2/static/css/main.7f7e992c.chunk.css.map",
+    "static/css/main.7301ca68.chunk.css.map": "/PortfolioWebsite2/static/css/main.7301ca68.chunk.css.map",
     "static/js/2.f559d380.chunk.js.LICENSE.txt": "/PortfolioWebsite2/static/js/2.f559d380.chunk.js.LICENSE.txt",
     "static/media/arrow-down.png": "/PortfolioWebsite2/static/media/arrow-down.2d5b66a1.png",
     "static/media/Work.css": "/PortfolioWebsite2/static/media/covid-19-thumb.81595068.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.28606eda.js",
     "static/js/2.f559d380.chunk.js",
-    "static/css/main.7f7e992c.chunk.css",
-    "static/js/main.d6c1bc56.chunk.js"
+    "static/css/main.7301ca68.chunk.css",
+    "static/js/main.faafc5d1.chunk.js"
   ]
 }

@@ -1,13 +1,14 @@
 {
   "work" : [
 		{
-			"project-title" : "COVID-19 Tracker",
-			"project-description" : "A tool that provides statistics about COVID-19 cases worldwide.",
+			"project-title" : "COVID-19 Tracker (WIP)",
+			"project-description" : "A tool that provides statistics about COVID-19 cases worldwide. This also my first project created with React.",
 			"project-image" : "../static/media/covid-19-thumb.81595068.png"
 		},
 		{
 			"project-title" : "Portfolio Website",
-			"project-description" : "My own designed portfolio website."
+			"project-description" : "My own designed portfolio website.",
+			"project-image" : "../static/media/covid-19-thumb.81595068.png"
 		}
 	]
 }
