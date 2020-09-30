@@ -1,0 +1,13 @@
+{
+  "work" : [
+		{
+			"project-title" : "COVID-19 Tracker",
+			"project-description" : "A tool that provides statistics about COVID-19 cases worldwide.",
+			"project-image" : "../static/media/covid-19-thumb.81595068.png"
+		},
+		{
+			"project-title" : "Portfolio Website",
+			"project-description" : "My own designed portfolio website."
+		}
+	]
+}
