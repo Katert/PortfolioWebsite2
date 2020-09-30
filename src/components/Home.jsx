@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../css/Home.css";
 
@@ -35,9 +34,9 @@ class Home extends Component {
               <span id="greeting-intro">
                 I'm a{" "}
                 <span className="highlight homepage">
-                  full-stack
+                  junior front-end
                 </span>{" "}
-                web developer.
+                web developer who loves designing <br/> and coding.
               </span>
             </motion.div>
           </div>
@@ -62,20 +61,20 @@ class Home extends Component {
           </motion.div>
           <motion.div
             className="curved"
-            // initial={{ y: 100, opacity: 0 }}
-            // animate={{ y: 0, opacity: 1 }}
-            // transition={{ delay: 1.5, duration: 1 }}
+            initial={{ y: 100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1.5, duration: 1 }}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
-                fill="#273036"
+                fill="rgb(25, 26, 31)"
                 fillOpacity="1"
                 d="M0,64L60,80C120,96,240,128,360,138.7C480,149,600,139,720,128C840,117,960,107,1080,106.7C1200,107,1320,117,1380,122.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
               ></path>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
-                fill="#273036"
+                fill="rgb(25, 26, 31)"
                 fillOpacity="1"
                 d="M0,128L21.8,106.7C43.6,85,87,43,131,58.7C174.5,75,218,149,262,176C305.5,203,349,181,393,160C436.4,139,480,117,524,96C567.3,75,611,53,655,58.7C698.2,64,742,96,785,128C829.1,160,873,192,916,192C960,192,1004,160,1047,170.7C1090.9,181,1135,235,1178,256C1221.8,277,1265,267,1309,218.7C1352.7,171,1396,85,1418,42.7L1440,0L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"
               ></path>

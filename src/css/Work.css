@@ -9,7 +9,7 @@
   text-align: left;
   font-family: "Josefin Sans", sans-serif;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(25, 26, 31);
   border-radius: 0.625em;
   display: flex;
   justify-self: center;
@@ -34,7 +34,6 @@
   border-radius: 10px;
   background-image: url("../img/covid-19-thumb.png");
   background-size: cover;
-  background-color: rgba(0,0,0, 0.5);
   display: flex;
   align-items: center;
   flex-direction: column;

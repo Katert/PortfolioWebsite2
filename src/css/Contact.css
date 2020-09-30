@@ -4,8 +4,8 @@
 }
 
 #contact-section {
-  padding: 1.5em;
-  background-color: #000000;
+  padding: 1em;
+  background-color: rgb(25, 26, 31);
   border-radius: 0.625em;
   font-family: "Josefin Sans", sans-serif;
   /* -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
@@ -16,7 +16,7 @@
 #contact-subtitle {
   font-size: 1em;
   font-family: "Josefin Sans", sans-serif;
-  color: rgb(15, 209, 135);
+  color: rgb(0, 0, 0);
   margin: -2em 0 1em;
 }
 

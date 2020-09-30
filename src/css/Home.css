@@ -6,13 +6,9 @@
 }
 
 .highlight.homepage {
-  color: rgb(0, 0, 0);
+  color: rgb(29, 206, 117);
   text-decoration: underline;
   transition: 0.3s;
-}
-
-.highlight.homepage:hover {
-  color: rgb(29, 206, 117);
 }
 
 #greeting-container {
@@ -26,16 +22,7 @@
 }
 
 #greeting-intro {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Josefin Sans", sans-serif;
   color: black;
-}
-
-.home-highlight {
-  transition: 0.3s;
-  text-decoration: underline;
-}
-
-.home-highlight:hover {
-  color: rgb(92, 228, 137);
 }

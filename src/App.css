@@ -17,7 +17,7 @@ html {
   border-top: 10px rgb(255, 255, 255) solid;
   border-right: 10px rgb(255, 255, 255) solid;
   border-bottom: 10px rgb(255, 255, 255) solid;
-  border-left: 10px white solid;
+  border-left: 10px rgb(255, 255, 255) solid;
   overflow: scroll;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@ html {
 
 .curved {
   overflow: auto;
+  margin-bottom: -5em;
 }
 
 .curved svg {

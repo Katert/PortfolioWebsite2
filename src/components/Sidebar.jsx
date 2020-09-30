@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {motion} from 'framer-motion';
 
 // Icon imports
 import { TiMessages } from "react-icons/ti";
@@ -16,12 +17,17 @@ function Sidebar() {
 
   return (
     <>
-      <div className="hamburger-icon">
+      <motion.div
+        className="hamburger-icon"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <GiHamburgerMenu
           id="hamburger-toggle"
           onClick={() => toggleSidebar("sidebar")}
         />
-      </div>
+      </motion.div>
       <div className={sidebar}>
         <nav className="nav-links">
           <FaRegTimesCircle
@@ -60,12 +66,6 @@ function Sidebar() {
               </a>
             </li>
           </ul>
-          {/* <div id="social-container">
-          <a href="https://github.com/Katert">
-            <FaGithubSquare />
-          </a>
-          <FaLinkedin />
-        </div> */}
         </nav>
       </div>
     </>

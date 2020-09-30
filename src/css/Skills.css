@@ -1,6 +1,6 @@
 #skills-container {
   width: 80%;
-	margin: 0em auto 2em;
+	margin: 2em auto 2em;
 }
 
 #skills-section {
@@ -9,7 +9,7 @@
   text-align: left;
   font-family: "Josefin Sans", sans-serif;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(25, 26, 31);
   border-radius: 0.625em;
   display: relative;
 }
@@ -30,7 +30,7 @@
 }
 
 .skill-tile {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(25, 26, 31);
   border-radius: 10px;
 	display: flex;
 	justify-content: center;
