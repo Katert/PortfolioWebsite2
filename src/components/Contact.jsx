@@ -13,6 +13,7 @@ class ContactForm extends Component {
     company: "",
     message: "",
     sent: false,
+    isSending: false,
     buttonText: "Send message",
     buttonDisabled: false,
   };
@@ -26,6 +27,7 @@ class ContactForm extends Component {
       phone: null,
       company: " ",
       message: " ",
+      isSending: false,
       buttonText: "Message sent!",
       buttonDisabled: true,
     });
@@ -34,7 +36,7 @@ class ContactForm extends Component {
   formSubmit = (e) => {
     e.preventDefault();
 
-    this.setState({ buttonText: "Sending...", buttonDisabled: true });
+    this.setState({ isSending: true, buttonDisabled: true });
 
     let formData = {
       fname: this.state.fname,
@@ -52,7 +54,11 @@ class ContactForm extends Component {
     )
       .then((res) => {
         if (res.data.success) {
-          this.setState({ sent: true, buttonDisabled: true });
+          this.setState({
+            sent: true,
+            buttonDisabled: true,
+            buttonText: "Message sent!",
+          });
         } else {
           this.setState({ buttonDisabled: false });
         }
@@ -60,10 +66,9 @@ class ContactForm extends Component {
       .then(() => {
         this.resetForm();
       })
-      .catch(() => {
-        alert("There was a problem with sending your message.");
-        Error("Message could not be sent!");
-        this.setState({ buttonDisabled: false, buttonText: "Send message" });
+      .catch((error) => {
+        console.log(Error(error));
+        this.setState({ buttonDisabled: false, buttonText: "Try again" });
       });
   };
 
@@ -71,35 +76,12 @@ class ContactForm extends Component {
     return (
       <div id="contact">
         <div id="contact-container">
-          <motion.h1
-            className="section-title"
-            initial={{ x: -100, opacity: -10 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
-            Let's talk
-          </motion.h1>
-          <motion.h3
-            id="contact-subtitle"
-            initial={{ x: -100, opacity: -10 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
+          <h1 className="section-title">Let's talk</h1>
+          <h3 id="contact-subtitle">
             Give me a call at +31 6 31694714 or use the contact form below.
-          </motion.h3>
-          <motion.div
-            id="contact-section"
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 2 }}
-          >
-            <motion.form
-              className="contact-form"
-              initial={{ x: 50, opacity: -1 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ delay: 0.8, duration: 1 }}
-              onSubmit={this.formSubmit}
-            >
+          </h3>
+          <div id="contact-section">
+            <form className="contact-form" onSubmit={this.formSubmit}>
               <div className="form-fields">
                 <div className="field">
                   <label className="label contact">First name *</label>
@@ -203,7 +185,11 @@ class ContactForm extends Component {
               <div className="control">
                 <button
                   id="contact-submit"
-                  className="button is-white"
+                  className={
+                    this.state.isSending
+                      ? "button is-white is-loading"
+                      : "button is-white"
+                  }
                   type="submit"
                   name="submit"
                   disabled={this.state.buttonDisabled}
@@ -212,26 +198,24 @@ class ContactForm extends Component {
                 </button>
               </div>
               <br />
-              <p style={{ color: "rgb(15, 209, 135)" }} className="label contact">
+              <p
+                style={{ color: "rgb(15, 209, 135)" }}
+                className="label contact"
+              >
                 * required.
               </p>
-            </motion.form>
-          </motion.div>
+            </form>
+          </div>
         </div>
-        <motion.div
-          className="curved"
-          initial={{ y: 100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 1.5, duration: 1 }}
-        >
+        <div className="curved">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
-              fill="rgb(25, 26, 31)"
+              fill="rgb(18, 20, 22)"
               fillOpacity="1"
-              d="M0,320L20,282.7C40,245,80,171,120,144C160,117,200,139,240,128C280,117,320,75,360,53.3C400,32,440,32,480,58.7C520,85,560,139,600,144C640,149,680,107,720,90.7C760,75,800,85,840,85.3C880,85,920,75,960,80C1000,85,1040,107,1080,96C1120,85,1160,43,1200,69.3C1240,96,1280,192,1320,202.7C1360,213,1400,139,1420,101.3L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+              d="M0,96L48,133.3C96,171,192,245,288,261.3C384,277,480,235,576,208C672,181,768,171,864,170.7C960,171,1056,181,1152,154.7C1248,128,1344,64,1392,32L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
             ></path>
           </svg>
-        </motion.div>
+        </div>
       </div>
     );
   }

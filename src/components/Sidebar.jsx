@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {motion} from 'framer-motion';
+import { motion } from "framer-motion";
 
 // Icon imports
 import { TiMessages } from "react-icons/ti";
@@ -13,7 +13,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import "../css/Sidebar.css";
 
 function Sidebar() {
-  const [sidebar, toggleSidebar] = useState("sidebar-hide");
+
+  const [sidebar, setSidebar] = useState(false);
+  const showSidebar = () => setSidebar(!sidebar);
+
 
   return (
     <>
@@ -23,18 +26,16 @@ function Sidebar() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <GiHamburgerMenu
-          id="hamburger-toggle"
-          onClick={() => toggleSidebar("sidebar")}
-        />
+        <GiHamburgerMenu id="hamburger-toggle" onClick={showSidebar} />
       </motion.div>
-      <div className={sidebar}>
+      <div className={sidebar ? "sidebar" : "sidebar-hide"}>
         <nav className="nav-links">
-          <FaRegTimesCircle
-            id="sidebar-exit"
-            onClick={() => toggleSidebar("sidebar-hide")}
-          />
           <ul>
+            <li >
+              <span>
+                <FaRegTimesCircle id="sidebar-exit" onClick={showSidebar} />
+              </span>
+            </li>
             <li className="list-item">
               <a className="nav-item" href="#home">
                 <RiHomeLine className="sidebar-icon" />
@@ -68,7 +69,7 @@ function Sidebar() {
           </ul>
         </nav>
       </div>
-    </>
+      </>
   );
 }
 

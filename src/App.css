@@ -3,49 +3,38 @@
 }
 
 html {
-  background-color: whitesmoke;
+  background-color: rgb(0, 0, 0);
 }
 
 .app-container {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  border: 5px white solid;
 }
 
 .content-container {
   width: 100%;
-  border-top: 10px rgb(255, 255, 255) solid;
-  border-right: 10px rgb(255, 255, 255) solid;
-  border-bottom: 10px rgb(255, 255, 255) solid;
-  border-left: 10px rgb(255, 255, 255) solid;
   overflow: scroll;
   display: flex;
   flex-direction: column;
 }
 
+.section-container {
+  background-color: rgb(18, 20, 22);
+  padding-bottom: 2.5em;
+}
+
 .section-title {
-  margin-bottom: 0.75em;
-  font-size: 2.5em;
+  margin: 0.5em 0 0.8em;
+  border-bottom: 2px white solid;
+  font-size: 3em;
   font-family: "Poppins", sans-serif;
-  color: rgb(0, 0, 0);
-  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
 /* ---- Misc ---- */
 
 .highlight {
-  color: rgb(15, 209, 135);
-}
-
-#arrow-down {
-  width: 1.5em;
-}
-
-.curved {
-  overflow: auto;
-  margin-bottom: -5em;
-}
-
-.curved svg {
-  float: left;
+  color: rgb(85, 187, 127);
 }

@@ -1,18 +1,27 @@
-.sidebar-hide {
-  display: none;
-}
-
 .sidebar {
-  background-color: rgb(25, 26, 31);
+  background-color: rgb(18, 20, 22);
   height: 100%;
   width: 15em;
   display: flex;
   justify-content: center;
-  border-top: 10px rgb(255, 255, 255) solid;
-  border-bottom: 10px rgb(255, 255, 255) solid;
-  border-left: 10px rgb(255, 255, 255) solid;
-  margin-right: -10px;
   z-index: 2;
+  transition: all .2s;
+  border-right: 3px black solid;
+  z-index: 6;
+}
+
+.sidebar-hide, #sidebar-exit {
+  width: 0em;
+  height: 100%;
+  transition: all .2s;
+}
+
+.sidebar #sidebar-exit {
+  color: white;
+}
+
+.sidebar-hide a {
+  display: none;
 }
 
 .nav-links {
@@ -23,7 +32,6 @@
   padding: 0.75em;
   font-size: 27px;
   list-style-type: none;
-  transition: all 1s;
 }
 
 .list-item {
@@ -48,7 +56,6 @@
   padding-left: 10px;
 }
 
-
 #social-container {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
@@ -62,14 +69,13 @@
 }
 
 #hamburger-toggle {
-  font-size: 38px;
-  color: black;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 10px;
   margin: 20px 0em 0em 20px;
-  z-index: 1;
-  transition: 0.3s;
+  z-index: 5;
   cursor: pointer;
 }
 
@@ -78,13 +84,19 @@
 }
 
 #sidebar-exit {
-  align-self: flex-end;
   margin-bottom: 20px;
-  color: rgb(255, 255, 255);
-  transition: 0.3s;
+  color: black;
   cursor: pointer;
+  width: 1em;
 }
 
 #sidebar-exit:hover {
   color: red;
 }
+
+/* #logo {
+  position: absolute;
+  width: 50px;
+  top: 18px;
+  right: 18px;
+} */

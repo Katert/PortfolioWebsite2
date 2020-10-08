@@ -1,28 +1,41 @@
 #home-container {
   width: 100%;
-  height: auto;
-  margin: 8em auto -6em;
-  text-align: center;
+  height: 100%;
 }
 
 .highlight.homepage {
-  color: rgb(29, 206, 117);
   text-decoration: underline;
-  transition: 0.3s;
 }
 
 #greeting-container {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #greeting {
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
-  font-size: 3em;
+  font-size: 3.2em;
 }
 
 #greeting-intro {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: "Josefin Sans", sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
+}
+
+#selfie {
+  width: 8em;
+  margin: 5em auto;
+}
+
+#home-container .curved {
+  font-size: 0;
+}
+
+#scroll-down-icon {
+  width: 3em;
+  z-index: 3;
+  margin: 7em 0 -7em;
 }

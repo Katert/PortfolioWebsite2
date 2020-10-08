@@ -1,23 +1,28 @@
+#contact {
+  background-color: rgb(18, 20, 22);
+}
+
 #contact-container {
-  width: 40%;
+  width: 600px;
   margin: 2em auto 2em;
+}
+
+#contact-container .section-title {
+  color: rgb(255, 255, 255);
 }
 
 #contact-section {
   padding: 1em;
-  background-color: rgb(25, 26, 31);
+  background-color: rgb(0, 0, 0);
   border-radius: 0.625em;
   font-family: "Josefin Sans", sans-serif;
-  /* -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21);
-  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.21); */
 }
 
 #contact-subtitle {
   font-size: 1em;
   font-family: "Josefin Sans", sans-serif;
-  color: rgb(0, 0, 0);
-  margin: -2em 0 1em;
+  color: rgb(255, 255, 255);
+  margin: -1.5em 0 2em;
 }
 
 .label.contact {
@@ -48,6 +53,9 @@
 
 #contact-submit:hover {
   font-family: "Josefin Sans";
-  color: rgb(15, 209, 135);
+  background-color: rgb(46, 196, 138);
 }
 
+.curved svg {
+  background-color: black;
+}
