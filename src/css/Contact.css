@@ -48,12 +48,19 @@
 
 #contact-submit {
   font-family: "Josefin Sans";
+  color: white;
   transition: 0.3s;
 }
 
 #contact-submit:hover {
   font-family: "Josefin Sans";
   background-color: rgb(46, 196, 138);
+  color: black;
+}
+
+.input, .textarea {
+  background-color : #111111; 
+  color: rgb(46, 196, 138);
 }
 
 .curved svg {

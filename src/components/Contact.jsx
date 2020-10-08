@@ -187,8 +187,8 @@ class ContactForm extends Component {
                   id="contact-submit"
                   className={
                     this.state.isSending
-                      ? "button is-white is-loading"
-                      : "button is-white"
+                      ? "button is-white is-outlined is-inverted is-loading"
+                      : "button is-black is-outlined is-inverted"
                   }
                   type="submit"
                   name="submit"
