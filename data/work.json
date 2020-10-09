@@ -13,6 +13,13 @@
 			"image" : "portfolio-thumb.png",
 			"url" : "http://wesleykater.com",
 			"repo" : "https://github.com/Katert/PortfolioWebsite2"
+		},
+				{
+			"title" : "COVID-19 Tracker",
+			"description" : "First created project in React. Provides COVID-19 case statistics. (WIP)",
+			"image" : "covid-19-thumb.png",
+			"url" : "https://katert.github.io/covid19-tracker/#",
+			"repo" : "https://github.com/Katert/covid19-tracker"
 		}
 	]
 }
