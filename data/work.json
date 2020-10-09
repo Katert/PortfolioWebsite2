@@ -2,24 +2,24 @@
   "work" : [
 		{
 			"title" : "COVID-19 Tracker",
-			"description" : "First created project in React. Provides COVID-19 case statistics. (WIP)",
+			"description" : "First created project in React. Provides COVID-19 case statistics (WIP, not responsive yet).",
 			"image" : "covid-19-thumb.png",
 			"url" : "https://katert.github.io/covid19-tracker/#",
 			"repo" : "https://github.com/Katert/covid19-tracker"
 		},
 		{
-			"title" : "Portfolio Website",
-			"description" : "My own designed portfolio website.",
+			"title" : "Portfolio Website (v1)",
+			"description" : "My first designed portfolio website.",
+			"image" : "portfolio-v1-thumb.png",
+			"url" : "https://katert.github.io/portfolio-website/#/",
+			"repo" : "https://github.com/Katert/portfolio-website"
+		},
+		{
+			"title" : "Portfolio Website (v2)",
+			"description" : "My second designed portfolio website, the one you're on right now.",
 			"image" : "portfolio-thumb.png",
 			"url" : "http://wesleykater.com",
 			"repo" : "https://github.com/Katert/PortfolioWebsite2"
-		},
-				{
-			"title" : "COVID-19 Tracker",
-			"description" : "First created project in React. Provides COVID-19 case statistics. (WIP)",
-			"image" : "covid-19-thumb.png",
-			"url" : "https://katert.github.io/covid19-tracker/#",
-			"repo" : "https://github.com/Katert/covid19-tracker"
 		}
 	]
 }
