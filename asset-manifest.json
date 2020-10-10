@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website-2/static/css/main.f361903e.chunk.css",
-    "main.js": "/portfolio-website-2/static/js/main.79093616.chunk.js",
-    "main.js.map": "/portfolio-website-2/static/js/main.79093616.chunk.js.map",
+    "main.css": "/portfolio-website-2/static/css/main.341820e5.chunk.css",
+    "main.js": "/portfolio-website-2/static/js/main.0598ded4.chunk.js",
+    "main.js.map": "/portfolio-website-2/static/js/main.0598ded4.chunk.js.map",
     "runtime-main.js": "/portfolio-website-2/static/js/runtime-main.9ca53deb.js",
     "runtime-main.js.map": "/portfolio-website-2/static/js/runtime-main.9ca53deb.js.map",
-    "static/js/2.4cff8def.chunk.js": "/portfolio-website-2/static/js/2.4cff8def.chunk.js",
-    "static/js/2.4cff8def.chunk.js.map": "/portfolio-website-2/static/js/2.4cff8def.chunk.js.map",
+    "static/js/2.5ee4e363.chunk.js": "/portfolio-website-2/static/js/2.5ee4e363.chunk.js",
+    "static/js/2.5ee4e363.chunk.js.map": "/portfolio-website-2/static/js/2.5ee4e363.chunk.js.map",
     "index.html": "/portfolio-website-2/index.html",
-    "precache-manifest.ac5f274cfd4e95bb8fa24e4e7e750ae5.js": "/portfolio-website-2/precache-manifest.ac5f274cfd4e95bb8fa24e4e7e750ae5.js",
+    "precache-manifest.6da9a398f3bc9cc5874e49672075f2b9.js": "/portfolio-website-2/precache-manifest.6da9a398f3bc9cc5874e49672075f2b9.js",
     "service-worker.js": "/portfolio-website-2/service-worker.js",
-    "static/css/main.f361903e.chunk.css.map": "/portfolio-website-2/static/css/main.f361903e.chunk.css.map",
-    "static/js/2.4cff8def.chunk.js.LICENSE.txt": "/portfolio-website-2/static/js/2.4cff8def.chunk.js.LICENSE.txt",
+    "static/css/main.341820e5.chunk.css.map": "/portfolio-website-2/static/css/main.341820e5.chunk.css.map",
+    "static/js/2.5ee4e363.chunk.js.LICENSE.txt": "/portfolio-website-2/static/js/2.5ee4e363.chunk.js.LICENSE.txt",
     "static/media/covid-19-thumb.png": "/portfolio-website-2/static/media/covid-19-thumb.37346f8a.png",
     "static/media/portfolio-thumb.png": "/portfolio-website-2/static/media/portfolio-thumb.77993eeb.png",
     "static/media/portfolio-v1-thumb.png": "/portfolio-website-2/static/media/portfolio-v1-thumb.68be3641.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9ca53deb.js",
-    "static/js/2.4cff8def.chunk.js",
-    "static/css/main.f361903e.chunk.css",
-    "static/js/main.79093616.chunk.js"
+    "static/js/2.5ee4e363.chunk.js",
+    "static/css/main.341820e5.chunk.css",
+    "static/js/main.0598ded4.chunk.js"
   ]
 }
